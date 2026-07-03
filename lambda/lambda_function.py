@@ -3,5 +3,5 @@ inport json
 def lambda_handler(event, context):
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello updated lambda # 2 from vscode')
+        'body': json.dumps('Hello updated lambda # 3 from vscode')
     }
