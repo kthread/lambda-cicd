@@ -14,7 +14,6 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: my-cicd-bucket
       Tags:
         - Key: Environment
           Value: !Ref Environment
